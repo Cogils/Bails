@@ -1,14 +1,14 @@
-# Xrelly-spec BAILEYS
+# Xrelly-stack BAILEYS
 
 <p align="center">
   <img src="https://files.catbox.moe/1jr6zk.jpg" alt="Thumbnail" />
 </p>
 
-Xrelly-spec Baileys is an open-source library designed to help developers build automation solutions and integrations with WhatsApp efficiently and directly. Using websocket technology without the need for a browser, this library supports a wide range of features such as message management, chat handling, group administration, as well as interactive messages and action buttons for a more dynamic user experience.
+Xrelly-stack Baileys is an open-source library designed to help developers build automation solutions and integrations with WhatsApp efficiently and directly. Using websocket technology without the need for a browser, this library supports a wide range of features such as message management, chat handling, group administration, as well as interactive messages and action buttons for a more dynamic user experience.
 
-Actively developed and maintained, Xrelly-spec Baileys continuously receives updates to enhance stability and performance. One of the main focuses is to improve the pairing and authentication processes to be more stable and secure. Pairing features can be customized with your own codes, making the process more reliable and less prone to interruptions.
+Actively developed and maintained, Xrelly-stack Baileys continuously receives updates to enhance stability and performance. One of the main focuses is to improve the pairing and authentication processes to be more stable and secure. Pairing features can be customized with your own codes, making the process more reliable and less prone to interruptions.
 
-This library is highly suitable for building business bots, chat automation systems, customer service solutions, and various other communication automation applications that require high stability and comprehensive features. With a lightweight and modular design, Xrelly-spec Baileys is easy to integrate into different systems and platforms.
+This library is highly suitable for building business bots, chat automation systems, customer service solutions, and various other communication automation applications that require high stability and comprehensive features. With a lightweight and modular design, Xrelly-stack Baileys is easy to integrate into different systems and platforms.
 
 ---
 
@@ -107,7 +107,7 @@ await sock.sendMessage(jid, {
     eventMessage: { 
         isCanceled: false, 
         name: "Hello World", 
-        description: "Xrelly-spec Baileys", 
+        description: "Xrelly-stack Baileys", 
         location: { 
             degreesLatitude: 0, 
             degreesLongitude: 0, 
@@ -150,7 +150,7 @@ await sock.sendMessage(jid, {
     interactiveMessage: {
         header: "Hello World",
         title: "Hello World",
-        footer: "Xrelly-spec Baileys",
+        footer: "Xrelly-stack Baileys",
         buttons: [
             {
                 name: "cta_copy",
@@ -173,7 +173,7 @@ await sock.sendMessage(jid, {
     interactiveMessage: {      
         header: "Hello World",
         title: "Hello World",      
-        footer: "Xrelly-spec Baileys",      
+        footer: "Xrelly-stack Baileys",      
         image: { url: "https://example.com/image.jpg" },      
         nativeFlowMessage: {        
             messageParamsJson: JSON.stringify({          
@@ -186,14 +186,14 @@ await sock.sendMessage(jid, {
                 bottom_sheet: {            
                     in_thread_buttons_limit: 2,            
                     divider_indices: [1, 2, 3, 4, 5, 999],            
-                    list_title: "Xrelly-spec Baileys",            
-                    button_title: "Xrelly-spec Baileys"          
+                    list_title: "Xrelly-stack Baileys",            
+                    button_title: "Xrelly-stack Baileys"          
                 },          
                 tap_target_configuration: {            
-                    title: " Xrelly-spec ",            
-                    description: "Xrelly-spec Baileys",            
+                    title: " Xrelly-stack ",            
+                    description: "Xrelly-stack Baileys",            
                     canonical_url: "https://t.me/jspacker",            
-                    domain: "Xrelly-spec.example.com",            
+                    domain: "Xrelly-stack.example.com",            
                     button_index: 0          
                 }        
             }),        
@@ -220,7 +220,7 @@ await sock.sendMessage(jid, {
                                 highlight_label: "label",                  
                                 rows: [                    
                                     {                      
-                                        title: "Xrelly-spec Baileys",                      
+                                        title: "Xrelly-stack Baileys",                      
                                         description: "NullExceptionX",                      
                                         id: "row_2"                    
                                     }                  
@@ -252,7 +252,7 @@ await sock.sendMessage(jid, {
     interactiveMessage: {
         header: "Hello World",
         title: "Hello World",
-        footer: "Xrelly-spec Baileys",
+        footer: "Xrelly-stack Baileys",
         image: { url: "https://example.com/image.jpg" },
         buttons: [
             {
@@ -316,11 +316,11 @@ await sock.sendMessage(jid, {
             isForwarded: false
         },
         externalAdReply: {
-            title: "Xrelly-spec Bot",
-            body: "Xrelly-spec team",
+            title: "Xrelly-stack Bot",
+            body: "Xrelly-stack team",
             mediaType: 3,
             thumbnailUrl: "https://example.com/image.jpg",
-            mediaUrl: " Xrelly-spec ",
+            mediaUrl: " Xrelly-stack ",
             sourceUrl: "https://t.me/jspacker",
             showAdAttribution: true,
             renderLargerThumbnail: false         
@@ -347,7 +347,7 @@ await sock.sendMessage(jid, {
     interactiveMessage: {
         header: "Hello World",
         title: "Hello World",
-        footer: "Xrelly-spec Baileys",
+        footer: "Xrelly-stack Baileys",
         document: fs.readFileSync("./package.json"),
         mimetype: "application/pdf",
         fileName: "xrelly-larp.pdf",
@@ -395,7 +395,7 @@ await sock.sendMessage(jid, {
 
 ---
 
-## Why Choose Xrelly-spec Baileys?
+## Why Choose Xrelly-stack Baileys?
 
 Because this library offers high stability, full features, and an actively improved pairing process. It is ideal for developers aiming to create professional and secure WhatsApp automation solutions. Support for the latest WhatsApp features ensures compatibility with platform updates.
 
@@ -414,9 +414,9 @@ Because this library offers high stability, full features, and an actively impro
 
 ---
 
-For complete documentation, installation guides, and implementation examples, please visit the official repository and community forums. We continually update and improve Xrelly-spec Baileys to meet the needs of developers and users of modern WhatsApp automation solutions.
+For complete documentation, installation guides, and implementation examples, please visit the official repository and community forums. We continually update and improve Xrelly-stack Baileys to meet the needs of developers and users of modern WhatsApp automation solutions.
 
-**Thank you for choosing Xrelly-spec Baileys as your WhatsApp automation solution!**
+**Thank you for choosing Xrelly-stack Baileys as your WhatsApp automation solution!**
 
 ---
 
@@ -434,10 +434,10 @@ Thanks to the following awesome contributors who help improve this project 💖
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/Xrelly-specxx17">
+      <a href="https://github.com/Xrelly-stackxx17">
         <img src="https://files.catbox.moe/1jr6zk.jpg" width="80px;" style="border-radius:50%;" alt="Contributor"/>
         <br />
-        <sub><b>Xrelly-spec</b></sub>
+        <sub><b>Xrelly-stack</b></sub>
       </a>
     </td>
   </tr>

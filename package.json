@@ -1,17 +1,17 @@
 {
-  "name": "@Xrelly-spec/bails",
+  "name": "@Xrelly-stack/bails",
   "version": "1.0.0",
-  "description": "WhatsApp Modified By Xrelly-spec",
+  "description": "WhatsApp Modified By Xrelly-stack",
   "keywords": [
     "whatsapp-baileys"
   ],
-  "homepage": "https://github.com/Xrelly-spec/bails",
+  "homepage": "https://github.com/Xrelly-stack/bails",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Xrelly-spec/bails.git"
+    "url": "git+https://github.com/Xrelly-stack/bails.git"
   },
   "license": "MIT",
-  "author": "Xrelly-spec",
+  "author": "Xrelly-stack",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
@@ -102,6 +102,6 @@
     "node": ">=20.0.0"
   },
   "bugs": {
-    "url": "https://github.com/Xrelly-spec/bails/issues"
+    "url": "https://github.com/Xrelly-stack/bails/issues"
   }
 }
