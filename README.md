@@ -1,14 +1,14 @@
-# Xrelly-stack BAILEYS
+# Cogils BAILEYS
 
 <p align="center">
   <img src="https://files.catbox.moe/1jr6zk.jpg" alt="Thumbnail" />
 </p>
 
-Xrelly-stack Baileys is an open-source library designed to help developers build automation solutions and integrations with WhatsApp efficiently and directly. Using websocket technology without the need for a browser, this library supports a wide range of features such as message management, chat handling, group administration, as well as interactive messages and action buttons for a more dynamic user experience.
+Cogils Baileys is an open-source library designed to help developers build automation solutions and integrations with WhatsApp efficiently and directly. Using websocket technology without the need for a browser, this library supports a wide range of features such as message management, chat handling, group administration, as well as interactive messages and action buttons for a more dynamic user experience.
 
-Actively developed and maintained, Xrelly-stack Baileys continuously receives updates to enhance stability and performance. One of the main focuses is to improve the pairing and authentication processes to be more stable and secure. Pairing features can be customized with your own codes, making the process more reliable and less prone to interruptions.
+Actively developed and maintained, Cogils Baileys continuously receives updates to enhance stability and performance. One of the main focuses is to improve the pairing and authentication processes to be more stable and secure. Pairing features can be customized with your own codes, making the process more reliable and less prone to interruptions.
 
-This library is highly suitable for building business bots, chat automation systems, customer service solutions, and various other communication automation applications that require high stability and comprehensive features. With a lightweight and modular design, Xrelly-stack Baileys is easy to integrate into different systems and platforms.
+This library is highly suitable for building business bots, chat automation systems, customer service solutions, and various other communication automation applications that require high stability and comprehensive features. With a lightweight and modular design, Cogils Baileys is easy to integrate into different systems and platforms.
 
 ---
 
@@ -107,7 +107,7 @@ await sock.sendMessage(jid, {
     eventMessage: { 
         isCanceled: false, 
         name: "Hello World", 
-        description: "Xrelly-stack Baileys", 
+        description: "Cogils Baileys", 
         location: { 
             degreesLatitude: 0, 
             degreesLongitude: 0, 
@@ -150,7 +150,7 @@ await sock.sendMessage(jid, {
     interactiveMessage: {
         header: "Hello World",
         title: "Hello World",
-        footer: "Xrelly-stack Baileys",
+        footer: "Cogils Baileys",
         buttons: [
             {
                 name: "cta_copy",
@@ -173,27 +173,27 @@ await sock.sendMessage(jid, {
     interactiveMessage: {      
         header: "Hello World",
         title: "Hello World",      
-        footer: "Xrelly-stack Baileys",      
+        footer: "Cogils Baileys",      
         image: { url: "https://example.com/image.jpg" },      
         nativeFlowMessage: {        
             messageParamsJson: JSON.stringify({          
                 limited_time_offer: {            
                     text: "¿?idk¿?",            
-                    url: "https://t.me/jspacker",            
-                    copy_code: "xrelly-larp",            
+                    url: "https://t.me/JavaScriptCrazy",            
+                    copy_code: "obito-larp",            
                     expiration_time: Date.now() * 999          
                 },          
                 bottom_sheet: {            
                     in_thread_buttons_limit: 2,            
                     divider_indices: [1, 2, 3, 4, 5, 999],            
-                    list_title: "Xrelly-stack Baileys",            
-                    button_title: "Xrelly-stack Baileys"          
+                    list_title: "Cogils Baileys",            
+                    button_title: "Cogils Baileys"          
                 },          
                 tap_target_configuration: {            
-                    title: " Xrelly-stack ",            
-                    description: "Xrelly-stack Baileys",            
-                    canonical_url: "https://t.me/jspacker",            
-                    domain: "Xrelly-stack.example.com",            
+                    title: " Cogils ",            
+                    description: "Cogils Baileys",            
+                    canonical_url: "https://t.me/JavaScriptCrazy",            
+                    domain: "Cogils.example.com",            
                     button_index: 0          
                 }        
             }),        
@@ -220,7 +220,7 @@ await sock.sendMessage(jid, {
                                 highlight_label: "label",                  
                                 rows: [                    
                                     {                      
-                                        title: "Xrelly-stack Baileys",                      
+                                        title: "Cogils Baileys",                      
                                         description: "NullExceptionX",                      
                                         id: "row_2"                    
                                     }                  
@@ -252,7 +252,7 @@ await sock.sendMessage(jid, {
     interactiveMessage: {
         header: "Hello World",
         title: "Hello World",
-        footer: "Xrelly-stack Baileys",
+        footer: "Cogils Baileys",
         image: { url: "https://example.com/image.jpg" },
         buttons: [
             {
@@ -305,10 +305,10 @@ await sock.sendMessage(jid, {
     interactiveMessage: {
         header: "Hello World",
         title: "Hello World",
-        footer: "xrelly-larp",
+        footer: "obito-larp",
         document: fs.readFileSync("./package.json"),
         mimetype: "application/pdf",
-        fileName: "xrelly-larp.pdf",
+        fileName: "obito-larp.pdf",
         jpegThumbnail: fs.readFileSync("./document.jpeg"),
         contextInfo: {
             mentionedJid: [jid],
@@ -316,12 +316,12 @@ await sock.sendMessage(jid, {
             isForwarded: false
         },
         externalAdReply: {
-            title: "Xrelly-stack Bot",
-            body: "Xrelly-stack team",
+            title: "Cogils Bot",
+            body: "Cogils team",
             mediaType: 3,
             thumbnailUrl: "https://example.com/image.jpg",
-            mediaUrl: " Xrelly-stack ",
-            sourceUrl: "https://t.me/jspacker",
+            mediaUrl: " Cogils ",
+            sourceUrl: "https://t.me/JavaScriptCrazy",
             showAdAttribution: true,
             renderLargerThumbnail: false         
         },
@@ -330,8 +330,8 @@ await sock.sendMessage(jid, {
                 name: "cta_url",
                 buttonParamsJson: JSON.stringify({
                     display_text: "Telegram",
-                    url: "https://t.me/jspacker",
-                    merchant_url: "https://t.me/jspacker"
+                    url: "https://t.me/JavaScriptCrazy",
+                    merchant_url: "https://t.me/JavaScriptCrazy"
                 })
             }
         ]
@@ -357,8 +357,8 @@ await sock.sendMessage(jid, {
                 name: "cta_url",
                 buttonParamsJson: JSON.stringify({
                     display_text: "Telegram",
-                    url: "https://t.me/AboutObitoFlory",
-                    merchant_url: "https://t.me/AboutObitoFlory"
+                    url: "https://t.me/JavaScriptCrazy",
+                    merchant_url: "https://t.me/JavaScriptCrazy"
                 })
             }
         ]
@@ -425,7 +425,7 @@ For complete documentation, installation guides, and implementation examples, pl
 For questions, support, or collaboration, feel free to contact the developer:
 
 - **Telegram**: [Telegram Contact](https://t.me/boomxzy)
-- **Channel Telegram**: [Channel WhatsApp](https://t.me/AboutObitoFlory)
+- **Channel Telegram**: [Channel WhatsApp](https://t.me/JavaScriptCrazy)
 
 ### 🙌 Contributors outside the Baileys code
 
