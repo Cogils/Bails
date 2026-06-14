@@ -1,4 +1,3 @@
-const msg
 import makeWASocket from './Socket';
 export * from '../WAProto';
 export * from './Utils';
