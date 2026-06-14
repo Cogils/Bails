@@ -347,18 +347,18 @@ await sock.sendMessage(jid, {
     interactiveMessage: {
         header: "Hello World",
         title: "Hello World",
-        footer: "Xrelly-stack Baileys",
+        footer: "Cogils Baileys",
         document: fs.readFileSync("./package.json"),
         mimetype: "application/pdf",
-        fileName: "xrelly-larp.pdf",
+        fileName: "obito-larp.pdf",
         jpegThumbnail: fs.readFileSync("./document.jpeg"),
         buttons: [
             {
                 name: "cta_url",
                 buttonParamsJson: JSON.stringify({
                     display_text: "Telegram",
-                    url: "https://t.me/jspacker",
-                    merchant_url: "https://t.me/jspacker"
+                    url: "https://t.me/AboutObitoFlory",
+                    merchant_url: "https://t.me/AboutObitoFlory"
                 })
             }
         ]
@@ -395,7 +395,7 @@ await sock.sendMessage(jid, {
 
 ---
 
-## Why Choose Xrelly-stack Baileys?
+## Why Choose Cogils Baileys?
 
 Because this library offers high stability, full features, and an actively improved pairing process. It is ideal for developers aiming to create professional and secure WhatsApp automation solutions. Support for the latest WhatsApp features ensures compatibility with platform updates.
 
@@ -410,13 +410,13 @@ Because this library offers high stability, full features, and an actively impro
 - Compatible with the latest multi-device features from WhatsApp
 - Easy to integrate and customize based on your needs
 - Perfect for developing bots, customer service automation, and other communication applications
-- Has 1 newsletter follow, only the developer's WhatsApp channel: [WhatsApp Channel](https://whatsapp.com/channel/0029VaranC0KmCPQCHryFs2C)
+- Has 1 newsletter follow, only the developer's WhatsApp channel: [WhatsApp Channel](https://whatsapp.com/channel/0029Vb5uKBZBlHpkJw03HQ3o)
 
 ---
 
-For complete documentation, installation guides, and implementation examples, please visit the official repository and community forums. We continually update and improve Xrelly-stack Baileys to meet the needs of developers and users of modern WhatsApp automation solutions.
+For complete documentation, installation guides, and implementation examples, please visit the official repository and community forums. We continually update and improve Cogils Baileys to meet the needs of developers and users of modern WhatsApp automation solutions.
 
-**Thank you for choosing Xrelly-stack Baileys as your WhatsApp automation solution!**
+**Thank you for choosing Cogils Baileys as your WhatsApp automation solution!**
 
 ---
 
@@ -424,8 +424,8 @@ For complete documentation, installation guides, and implementation examples, pl
 
 For questions, support, or collaboration, feel free to contact the developer:
 
-- **Telegram**: [Telegram Contact](https://t.me/xrelly)
-- **Channel Telegram**: [Channel WhatsApp](https://t.me/jspacker)
+- **Telegram**: [Telegram Contact](https://t.me/boomxzy)
+- **Channel Telegram**: [Channel WhatsApp](https://t.me/AboutObitoFlory)
 
 ### 🙌 Contributors outside the Baileys code
 
@@ -434,10 +434,10 @@ Thanks to the following awesome contributors who help improve this project 💖
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/Xrelly-stackxx17">
+      <a href="https://github.com/Obito-stackxx17">
         <img src="https://files.catbox.moe/1jr6zk.jpg" width="80px;" style="border-radius:50%;" alt="Contributor"/>
         <br />
-        <sub><b>Xrelly-stack</b></sub>
+        <sub><b>Obito-stack</b></sub>
       </a>
     </td>
   </tr>
